@@ -1,0 +1,69 @@
+h1 {
+    font-size: clamp(23px, 4vw, 40px);
+    font-weight: 600;
+    text-indent: 0;
+    line-height: 1.3;
+    margin: 50px 0px;
+}
+h2 {
+    font-size: clamp(20px, 3vw, 30px);
+    font-weight: 600;
+    text-indent: 0;
+    line-height: 1.2;
+    margin: 50px 0px;
+}
+h3 {
+    font-size: clamp(18px, 4vw, 25px);
+    font-weight: 600;
+    text-indent: 0;
+    margin: 40px 0px;
+}
+h4 {
+    font-size: clamp(16px, 3vw, 22px);
+    font-weight: 600;
+    text-indent: 0;
+    margin: 20px 0px;
+}
+h5 {
+    font-size: clamp(14px, 3vw, 18px);
+    font-weight: 600;
+    text-indent: 0;
+    margin: 15px 0px;
+}
+h6 {
+    font-size: clamp(12px, 2vw, 16px);
+    font-weight: 600;
+    text-indent: 0;
+}
+.page__title {
+    color: #fff;
+    text-align: center;
+    font-size: clamp(25px, 4vw, 40px);
+    margin: 0px 0px 20px 0px;
+    text-shadow: 3px 3px 5px #ccc;
+}
+.page__title-flimsi {
+    color: #000;
+    text-align: center;
+    font-size: clamp(25px, 4vw, 40px);
+    margin: 0px 0px 20px 0px;
+    text-shadow: 3px 3px 5px #ccc;
+}
+.page__text {
+    color: #fff;
+    font-size: clamp(12px, 2vw, 16px);
+    line-height: 135%;
+    text-align: justify;
+    text-indent: 50px;
+    text-shadow: 3px 3px 5px #ccc;
+}
+.page__text-flimsi {
+    color: #000;
+    line-height: 135%;
+    text-align: justify;
+    text-indent: 50px;
+    text-shadow: 2px 2px 7px #888;
+}
+.page__text p {
+    margin-bottom: 16px;
+}
