@@ -432,6 +432,17 @@ body._touch .navbar__list > li._active .navbar__arrow {
         top: 50%;
         transform: scale(1) translate(0px, -50%);
     }
+    .menu__burger._active span {
+        transform: scale(0) translate(0px, -50%);
+    }
+    .menu__burger._active::before {
+        top: 50%;
+        transform: rotate(-45deg) translate(0px, -50%);
+    }
+    .menu__burger._active::after {
+        bottom: 50%;
+        transform: rotate(45deg) translate(0px, 50%);
+    }
     .navbar {
         position: fixed;
         top: 0;
